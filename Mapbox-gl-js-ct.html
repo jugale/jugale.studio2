@@ -50,7 +50,16 @@ style: 'mapbox://styles/mapbox/light-v10',
 center: [-122.467, 37.798],
 zoom: 13
 });
+var popup = new mapboxgl.Popup()
+.setLngLat(e.lngLat)
+.setHTML("<b>The Presidio.</b><br /> Explore to find a drinking fountain!")
+.setMaxWidth("300px")
+.addTo(map);
 
+var marker = new mapboxgl.Marker()
+.setLngLat([-122.4700, 37.8011])
+.setPopup("popup") // add popup
+.addTo(map);
 </script>
 
 </body>
