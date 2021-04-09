@@ -38,15 +38,16 @@
 
     <!-- Container for the map -->
     <div id="mapId"></div>
-    
+
   <script type="text/javascript">
-    mapboxgl.accessToken='pk.eyJ1IjoianVnYWxlIiwiYSI6ImNrbGgxcHhocTIwYmoycG8zaWZyNWdxZGcifQ.-fq6WKH7k2YnRhF9lxn3Fg';
-    var map = new mapboxgl.Map({
-      container:'mapID',
-      style:'mapbox://styles/mapbox/streets-v11',
-      center: [-122.420790, 37.754700],
-      zoom: 14,
-    });
+  mapboxgl.accessToken='pk.eyJ1IjoianVnYWxlIiwiYSI6ImNrbGgxcHhocTIwYmoycG8zaWZyNWdxZGcifQ.-fq6WKH7k2YnRhF9lxn3Fg';
+  // Initialize the map
+  var map = new mapboxgl.Map({
+  container: 'mapId',
+  style: 'mapbox://styles/mapbox/streets-v11',
+  center: [-122.420790, 37.754700],
+  zoom: 14
+  });
 
   </script>
 
