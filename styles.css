@@ -1,6 +1,5 @@
 body {
-  background-color: #F1F2EB;
-  color: #255A9B
+  background-color: white;
 }
 
 h1 {
@@ -30,6 +29,7 @@ li:last-child {
 li a {
  display: block;
  color: #907A61;
+ font: inherit;
  text-align: left;
  padding: 15px 17px;
  text-decoration: none;
@@ -37,11 +37,10 @@ li a {
 
 /* Links will change color when hovered over */
 li a:hover {
- background-color: #B6B93F;
- color: #white;
+ background-color: white;
 }
 
 .active {
- background-color: #a09f9f;
+ background-color: #B6B93F;
  color: white;
 }
