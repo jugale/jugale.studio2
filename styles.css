@@ -8,6 +8,12 @@ h1 {
   color: #577489;
 }
 
+h2{
+  font: inherit;
+  font-side: 25px;
+  color: #666666;
+}
+
 ul {
  list-style-type: none;
  margin: 1px;
