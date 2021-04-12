@@ -5,6 +5,7 @@ body {
 
 h1 {
   font: inherit;
+  font-size: 40px;
   color: #577489;
 }
 
@@ -28,7 +29,7 @@ li:last-child {
 
 li a {
  display: block;
- color: black;
+ color: #907A61;
  text-align: left;
  padding: 15px 17px;
  text-decoration: none;
@@ -37,7 +38,7 @@ li a {
 /* Links will change color when hovered over */
 li a:hover {
  background-color: #B6B93F;
- color: #907A61;
+ color: #white;
 }
 
 .active {
