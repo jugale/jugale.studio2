@@ -44,6 +44,7 @@ li a {
 /* Links will change color when hovered over */
 li a:hover {
  background-color: white;
+ color: #907A61;
 }
 
 .active {
