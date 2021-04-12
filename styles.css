@@ -1,3 +1,13 @@
+body {
+  background-color: #F1F2EB;
+  color: #255A9B
+}
+
+h1 {
+  font: inherit;
+  color: #577489;
+}
+
 ul {
  list-style-type: none;
  margin: 1px;
@@ -26,9 +36,11 @@ li a {
 
 /* Links will change color when hovered over */
 li a:hover {
- background-color: #a09f9f;
+ background-color: #B6B93F;
+ color: #907A61;
 }
 
 .active {
  background-color: #a09f9f;
+ color: white;
 }
